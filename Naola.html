@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naol portifolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+    
+        *{
+            margin: 0px;
+        }
+        ul{
+            display:flex;
+            flex-direction:row;
+            align-items:flex-end;
+            justify-content:flex-end;  
+            column-gap:20px;
+            row-gap:30px;
+            font-size:1.5em;
+            color:black;
+            background-color:aqua;
+            padding:20px;
+            margin:0px;
+            width: 100%;
+            position:fixed;
+            
+         
+        }
+        body{
+            margin:0px;
+        }
+        ul li{
+            display:inline;
+            list-style-type:none;
+
+        }
+        #iconcontainer i:hover{
+            color:white;
+        }
+        ul li:hover{
+            color:yellow;
+            cursor: pointer;
+        }
+        #w1{
+            text-align:center;
+            color:black;
+            font-size: 3em;
+            padding: 50px;
+
+        }
+        #P1{
+            background-color:aqua;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height:100vh;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+        #P2{
+            background-color:orange;
+            height:95vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #P3{
+            background-color:purple;
+            height:95vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            column-gap: 120PX;
+            row-gap: 40px;
+            justify-content: center;
+        }
+        #P4{
+            background-color:yellow;
+            height:95vh;
+             display: flex;
+            align-items: center;
+            flex-direction: column;
+            column-gap: 120PX;
+            row-gap: 40px;
+            justify-content: center;
+        }
+        #P5{
+            background-color:orange;
+            height:95vh;
+             display: flex;
+            align-items: center;
+            flex-direction: column;
+            column-gap: 120PX;
+            row-gap: 40px;
+            justify-content: center;
+        }
+        #sample{
+            color:black;
+            font-size: 1.1em;
+            animation: kalebanimation 3s infinite steps(30) alternate;
+            overflow: hidden;
+            height: 20px;
+            
+
+        }
+        #P1 button{
+            color:black;
+            background-color:green;
+            border: 0px ;
+            margin-top: 80px;
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        #P1 button:hover{
+            cursor: pointer;
+            background-color: yellow;
+            border: 2px solid red;
+        }
+        @keyframes kalebanimation{
+            from{
+                width: 100%;
+                border-right: 2px solid red;
+
+
+            }
+            to{
+                width: 0%;
+                border-right: 2px solid red;
+            }
+        }
+        .nawascrolled{
+            background-color: yellow;
+            color: red;
+        }
+        #P2 div img{
+            height: 400px;
+            width: 300px;
+        }
+        #P2 div{
+            display: flex;
+            flex-direction: row;
+            width: 60%;
+            padding: 20px;
+        }
+        #P2 div p{
+            align-self: flex-end;
+            margin: 15px;
+            font-size: 1.5em;
+        }
+        #P3 div{
+            align-self: flex-start;
+            padding:80px ;
+        }
+        #P3 div p{
+            font-size: 1.5em ;
+        }
+        #P5 div{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 10px;
+            align-self: flex-start;
+            margin: 20px;
+        }
+        #P5 div input{
+            height: 40px;
+            width: 500px;
+        }
+        #P5 div button{
+            align-self: flex-start;
+            height:40px ;
+            width: 300px;
+            background-color: red;
+            color: wheat;
+            font-size: 1.3em;
+        }
+        #P5 div button:hover{
+            background-color: yellow;
+            border: red solid2px;
+            color: red;
+            font-size: 1.3em;
+        }
+        #P5 div #input3{
+            height: 80px;
+        }
+        #P4 div div div{
+            display: flex;
+            justify-content: space-between;
+        }
+        #P4 div div progress{
+            width: 350px;
+            accent-color: red;
+        }
+        #P5 #divcontain{
+            display: flex;
+            flex-direction: row;
+        }
+        #P5 #divaddp{
+            align-self: flex-end;
+        }
+        #bt2{
+            position: fixed;       
+            top: 80vh;
+            left: 80vw; 
+            background-color: red;    
+            
+        }
+        #bt2 button{
+            background-color: red;
+        }
+    </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<div id="bt2"><button><a href="#btotop">^</a></button></div>
+<body>
+ <a name="btotop" style="width: 100%; height: 100%;"></a>
+
+    <nav>
+        <ul id="kalebul">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICE</li>
+            <li>SKILL</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+    <section id="P1">
+        <h1 id="w1">HELLO, I'm Naol beyene</h1>
+        <span><h1 id="sample">&nbsp;I&nbsp;AM&nbsp;GRADE&nbsp;11&nbsp;WEB&nbsp;DESIGN&nbsp;AND&nbsp;DEV'T&nbsp;STUDENT</h1></span>
+        <button >contact us</button>
+    </section>
+    <section id="P2">
+        <h1 id="kalebabouth1">
+            ABOUT ME
+        </h1>
+        <div>
+            <img src="kala.jpg">
+            <p>
+                Hi, My Name is Naol beyene.I am grade 11 web design and development student.I am living in Nifas Silk Lafto, at Jemo 1.
+                Also I am foot ball player And I have a dream to be proffessional football player. Also i want to be sucessful in Education.
+            </p>
+        </div>
+
+    </section>
+    <section id="P3">
+        <h1>MY SERVICES</h1>
+        <div>
+          <dl>
+  <dt>👨‍🏫</dt>
+  <dd><b>Iam student</b></dd>
+  <dd>I learned fana secondery school</dd>
+  <dt>🖥</dt>
+  <dd><b>web design</b></dd>
+  <dd>I design a website by using html,javascript and css</dd>
+  <dt>⚽️</dt>
+  <dd><b>Football</b></dd>
+  <dd>I play football in abdi boru fc acadamey </dd>
+  <dt>🏐</dt>
+  <dd><b>VOLLEYBALL</b></dd>
+  <dd>I play volleyball ball in school</dd>
+</dl>
+</div>
+
+    </section>
+    <section id="P4">
+        <h1>MY CREATIVE SKILLS</h1>
+        <div>
+            <P>I design website using html ,css and javascript. </P>
+                 <button style="hover:blue;
+                 background-color:aqua;">READ MORE</button>
+            <div><div><p>HTML</p><P>70%</P></div>
+                <progress max="100" value="60"></progress>
+            </div>
+            <div><div><p>CSS</p><P>35%</P></div>
+                <progress max="100" value="35"></progress></div>
+            <div><div><p>JAVASCRIPT</p><P>10%</P></div>
+                <progress max="100" value="10"></progress></div>
+            <div><div><p>PHP</p><P>0%</P></div>
+                <progress max="100" value="0"></progress></div>
+
+        </div>
+        
+
+    </section>
+    <section id="P5">
+        <h1>CONTACT</h1>
+        <div id="divcontain">
+        <div>
+            <input placeholder="Your Name">
+            <input placeholder="your email address">
+            <input placeholder="subjects">
+            <input id="input3" placeholder="Message">
+            <button>send Message</button>
+        </div>
+         <div id="divaddp">
+               <p id="addressp">please contact and support me,Just send me your subjects</p>
+               <address>
+                  <p>📜 address</p>
+                  <p>📍 Addisababa</p>
+                  <p>📞 +251-943-13-83-43</p>
+                  <p>📩 naolped@gmail.com</p>
+               </address>
+               <div id="iconcontainer" style="display: flex; flex-direction: row; column-gap: 20PX;">  <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+         </div>
+         <div></div>
+
+      </div>
+      </div>
+
+    </section>
+    <footer>
+        <h1 style="font-size: 1.3em;background-color:aqua;text-align:center;"> Ⓒcopyright <em style="color:red;"> Naol beyene website</em> RESERVED</h1>
+    </footer>
+    <script>
+     window.addEventListener('scroll', function(){
+        if(window.scrollY > 100){
+                    document.getElementById('kalebul').classList.add('nawascrolled');
+                }
+        else{
+                    document.getElementById('kalebul').classList.remove('nawascrolled');
+                }
+
+        }
+               
+            
+        );
+
+    </script>
+</body>
+</html>
